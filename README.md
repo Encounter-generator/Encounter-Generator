@@ -21,7 +21,7 @@ IF THIS DOESNT WORK CHECK YOUR POWERSHELL PERMISSIONS
 run:
 pip install django==3.1.0
 
-(not necassary since docker installs django, but you get annoying errors in vscode for not having it installed in the vscode env or something idk)
+(not necessary since docker installs django, but you get annoying errors in vscode for not having it installed in the vscode env or something idk)
 
 docker-compose up -d --build
 
