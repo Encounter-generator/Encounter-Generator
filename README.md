@@ -18,7 +18,10 @@ you should see a green (dev-env) before PS  if running in windows
 
 IF THIS DOESNT WORK CHECK YOUR POWERSHELL PERMISSIONS
 
-now that you have a env run
+run:
+pip install django==3.1.0
+
+(not necassary since docker installs django, but you get annoying errors in vscode for not having it installed in the vscode env or something idk)
 
 docker-compose up -d --build
 
